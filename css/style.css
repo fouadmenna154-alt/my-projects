@@ -1,0 +1,328 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #0c0c0c;
+    color: white;
+}
+
+
+/* gold color */
+
+.gold {
+    color: gold;
+}
+
+
+/* hero */
+
+/* ===== HERO SECTION ===== */
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ===== VIDEO ===== */
+
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+
+    z-index: -2;
+}
+
+/* ===== OVERLAY ===== */
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.486),
+        rgba(0, 0, 0, 0.315),
+        rgba(0, 0, 0, 0.342)
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== TEXT ===== */
+
+.hero-content {
+    z-index: 2;
+}
+
+.hero-title {
+    font-size: 70px;
+    font-weight: bold;
+    color: gold;
+    text-shadow: 0 0 20px black;
+}
+
+.hero-text {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* ===== BUTTON ===== */
+
+.btn-gold {
+    background: gold;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-gold:hover {
+    background: orange;
+    color: white;
+}
+
+
+
+
+/* cards */
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #0c0c0c;
+    color: white;
+}
+
+/* gold color */
+.gold {
+    color: gold;
+}
+
+/* hero */
+.hero {
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1589987607627-9f6d1b6c7a3a") center/cover no-repeat;
+}
+
+.hero-overlay {
+    background: rgba(0,0,0,0.7);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 60px;
+    color: gold;
+    animation: fade 2s;
+}
+
+.hero-text {
+    font-size: 25px;
+}
+
+.btn-gold {
+    background: gold;
+    border: none;
+    color: black;
+}
+
+.btn-gold:hover {
+    background: orange;
+}
+
+/* ===== View Button Ramadan Style ===== */
+.view-btn {
+    background: linear-gradient(45deg, gold, orange);
+    color: black;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.4s;
+    box-shadow: 0 0 5px gold;
+}
+
+.view-btn i {
+    margin-right: 5px;
+}
+
+.view-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px gold, 0 0 25px orange;
+    color: black;
+}
+
+/* cards */
+.food-card {
+    background: #111;
+    border: 1px solid gold;
+    transition: 0.4s;
+}
+
+.food-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(255, 217, 0, 0.39);
+}
+
+.section-title {
+    color: gold;
+}
+
+.food-card h5,
+.food-card p {
+    color: white;
+}
+/* footer */
+.footer {
+    background: #000;
+    padding: 30px;
+}
+
+.social i {
+    font-size: 22px;
+    margin: 10px;
+    color: gold;
+}
+
+/* animation */
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* footer */
+/* 
+.footer {
+
+    background: #000;
+
+    padding: 30px;
+
+}
+
+.social i {
+
+    font-size: 22px;
+
+    margin: 10px;
+
+    color: gold;
+
+} */
+
+
+
+.footer-divider {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, gold, orange, gold);
+    margin: 50px 0; 
+    border-radius: 5px;
+}
+
+
+
+/* Footer Styles */
+.footer {
+    background: #0b0b0b;
+}
+
+.footer h5 {
+    font-weight: 700;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer .footer-link {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer .footer-link:hover {
+    color: gold;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 8px;
+    color: gold;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: orange;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+/* animation */
+
+@keyframes fade {
+
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* Make all food cards same height */
+.food-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #111;
+    border: 1px solid gold;
+    transition: 0.4s;
+}
+
+.food-card img.card-img-top {
+    height: 200px; /* ثابت */
+    object-fit: cover; /* الصورة تغطي المساحة بدون تشويه */
+    border-bottom: 1px solid gold;
+}
+
+.food-card .card-body {
+    flex: 1; /* يملي مساحة الكارد */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* يباعد بين النص والزر */
+    text-align: center;
+}
